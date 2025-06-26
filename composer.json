@@ -1,0 +1,14 @@
+{
+  "name": "alex-kish/autoloader",
+  "description": "Manual PSR-4 autoloader without Composer autoload",
+  "keywords": [ "autoload", "autoloader", "autoloading", "psr4" ],
+  "type": "library",
+  "license": "MIT",
+  "require": {},
+  "authors": [
+    {
+      "name": "alex-kish",
+      "email": "stavtolk@gmail.com"
+    }
+  ]
+}
