@@ -1,0 +1,11 @@
+/vendor
+/.idea
+/composer.lock
+/composer.phar
+.buildpath
+.project
+.settingsgit
+.DS_Store
+nbproject
+Thumbs.db
+
