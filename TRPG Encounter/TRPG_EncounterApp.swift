@@ -12,7 +12,7 @@ import SwiftData
 struct TRPG_EncounterApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Campaign.self, Adventurer.self, Monster.self, Encounter.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +25,7 @@ struct TRPG_EncounterApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CampaignsView()
         }
         .modelContainer(sharedModelContainer)
     }
